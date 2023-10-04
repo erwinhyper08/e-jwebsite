@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.main_header {
+    padding: 1px 40px;
+    width: 100%;
+    background-color: rgb(11, 12, 12);
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.main_header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_header .container .search {
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+.main_header .container .search input {
+    outline: none;
+    padding: 10px 30px;
+    border: 2px solid rgb(7, 105, 252);
+    width: 300px;
+    color: black;
+}
+
+.main_header .container .search button {
+    border: 2px solid rgb(7, 105, 252);
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(7, 105, 252);
+    color: #ecf2f7;
+}
+.main_header .container .icon {
+    display: flex;
+    margin-right: 50px;
+}
+
+.main_header .container .icon .account {
+    display: flex;
+    margin-right: 30px;
+}
+
+.main_header .container .icon .account .user_icon {
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.main_header .container .icon .account p {
+    margin-right: 5px;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.main_header .container .icon .second_icon {
+    display: flex;
+}
+
+.main_header .container .icon .second_icon .link {
+    margin-right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(7, 105, 252);
+}
+
+.main_header .container .icon .second_icon .link:hover {
+    color: rgb(247, 248, 250);
+}
+
+.header {
+    width: 100%;
+    padding: 1px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(0, 32, 177);
+    position: sticky;
+    top: 87px;
+    left: 0;
+}
+
+.header .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .container .nav ul {
+    display: flex;
+}
+
+.header .container .nav ul li {
+    margin-left: 50px;
+    margin-top: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.header .container .nav ul li .link {
+    text-decoration: none;
+    color: #f4f5f7;
+    transition: 0.5s;
+}
+
+.header .container .nav ul li .link:hover {
+    color: rgb(252, 7, 252);
+}
+
+.header .container .auth {
+    margin: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header .container .auth button {
+    margin-right: 20px;
+    font-size:  22px;
+    cursor: pointer;
+    color: #f4f5f7;
+    outline: none;
+    border: none;
+    background: none;
+}
+.header .container .auth button:hover {
+    color: rgb(252, 7, 252);;
+}
